@@ -1,0 +1,4 @@
+# Interview Problem 
+Create a console application that would print the list of all the students taught by all the professors when it is run 
+If any data in the database changes, the console application should detect that and print the affected professors and their list of students only. For example - If a student moves out of a course and joins some other course, two professors list of students will get affected and the application should print their updated list of students only. Similarly, if a new students joins the college and enrols for certain number of courses, the application should print once again the affected professors and their new list of students
+it's possible that professors may not have any students  enrolled in their courses and we need to see the changes happening in course enrollments
